@@ -7,4 +7,4 @@ mysql
 
 
 
-数据库sql文件再resources包下
+数据库sql文件在resources包下
