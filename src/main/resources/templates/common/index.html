@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	  xmlns:th="http://www.thymeleaf.org"
+	  lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="description" content="主页" />
+	<title>主页</title>
+</head>
+<body>
+	<table>
+		<thead>
+			<th>id</th>
+			<th>姓名</th>
+			<th>密码</th>
+		</thead>
+		<tbody>
+			<tr th:each="item:${userInfoList}">
+				<td th:text="${item.userId}"></td>
+				<td th:text="${item.userName}"></td>
+				<td th:text="${item.password}"></td>
+			</tr>
+		</tbody>
+	</table>
+	<button type="button" onclick="ok();">点击我</button>
+
+	<script th:src="@{'/static/js/page/index.js'}"></script>
+</body>
+</html>
