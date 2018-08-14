@@ -1,2 +1,2 @@
 # springboot
-springboot+thymeleaf+jpa
+integrate springboot+thymeleaf+jpa simplely
