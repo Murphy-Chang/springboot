@@ -1,5 +1,5 @@
 # springboot
-springboot 1.5.13.RELEASE
+springboot 1.5.15.RELEASE
 gradle 3.4.1
 thymeleaf
 jpa
